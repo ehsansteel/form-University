@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <style>
+        .button {
+          border: none;
+          color:  black;
+          padding: 13px 30px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 11px;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+        
+        .button1 {background-color: #4CAF50;} /* Green */
+        </style>
+</head>
+<body dir="rtl">
+    <fieldset>
+        <legend>فرم ثبت نام</legend>
+    <form action="">
+
+        <table width="450" border="0" align="center" >
+            <tr>
+                <td width="150" align="left">
+                    نام کاربری :
+                </td>
+                <td>
+                    <input type="text" name="name" maxlength="10" size="20" placeholder="نام کاربری خود را وارد کنید">
+                </td>
+            </tr>
+
+            <tr>
+                <td width="150" align="left">
+                    رمز عبور :
+                </td>
+                <td>
+                    <input type="password" name="password" maxlength="10" size="20" placeholder="رمز عبور خود را وارد کنید">
+                </td>
+            </tr>
+
+            <tr>
+                <td width="150" align="left">
+                    ایمیل :
+                </td>
+                <td>
+                    <input type="email" name="emali" size="20" placeholder="ایمیل خود را وارد کنید">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                  <button class="button button1">ورود</button>
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</fieldset>
+</body>
+</html>
