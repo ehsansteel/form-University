@@ -1,0 +1,65 @@
+
+table, th, td {
+    border:4px solid salmon;
+  }
+  .name{
+      background:local;
+      color: mediumorchid;
+      display: inline;
+
+  }
+  .name1{
+    background: fixed;
+    color: tomato;
+    display: inline-block;
+  }
+  .name2{
+    background: local;
+    color: royalblue;
+    display: inline-block;
+} 
+ .name3{
+     background: fixed;
+     color: brown;
+     display: inline-table;
+
+
+} 
+ .name4{
+     background: local;
+     color: red;
+     display: flexbox;
+
+
+} 
+ .name5{
+     background: top;
+     color: slateblue;
+     display: flow-root;
+
+} 
+ .name6{
+     background: unset;
+     color: violet;
+     display: inline-flexbox;
+
+}
+  .name7{
+      background: scroll;
+      color: salmon;
+      display: grid;
+
+}
+  .name8{
+      background: local;
+      color: purple;
+      display: block;
+
+}
+
+  .name9{
+      background: fixed;
+      color: orange;
+      display: contents;
+
+}
