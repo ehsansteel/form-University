@@ -1,0 +1,39 @@
+.name22{
+        border: none;
+        color: black;
+        padding: 11px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 1px 3px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        background-color: rgb(187, 29, 126) ;
+        border: 2px solid gold;
+}
+.name44{
+        border: 1px solid red;
+        display: inline-block;
+        margin: 2px;
+        background-color: aqua;
+        border-width: 4px;
+
+}
+.name56{
+        background-color: blueviolet;
+        margin: 4px;
+        border-color: lightgrey;
+
+}
+.name21{
+        background-color: teal;
+        margin: 3px;
+        border-color: lightgrey;
+}
+.name44{
+        background-color: olive;
+        margin: 3px;
+        border-color: lightgrey;
+
+}

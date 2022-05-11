@@ -10,7 +10,6 @@ class detaform(models.Model):
     emali = models.EmailField()
 
 
-
     def __str__(self):
         return f"{self.name}, {self.password}, {self.emali},"
 
