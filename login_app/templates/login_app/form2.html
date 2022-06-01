@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
     <title>form page</title>
 </head>
-<body dir="rtl" bgcolor="#7ed55f" >
+<body dir="rtl" background="{% static  "/img/bg.jpg" %}">
     <h1>
         <font face="tahona" size="2" color="#ff4757"  >
              تصاویر از دانشگاه 
@@ -16,7 +18,12 @@
     <hr size="10" color="belk" >
      <ul>
          <li>
-             <a href="https://nilgamsafar.com/difference-between-college-and-university/" style="color: magenta ;" >منبع توضیحات </a>
+             <span class="nameTs34" ><a href="https://nilgamsafar.com/difference-between-college-and-university/" style="color: magenta ;" >منبع توضیحات </a></span>
+            </span>
+            <script>
+                tippy(".nameTs34",{
+                content: "بازگشت به صفحه قبلی"});
+            </script>
          </li>
          <br>
          <li>

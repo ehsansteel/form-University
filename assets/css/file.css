@@ -2,11 +2,17 @@
 table, th, td {
     border:4px solid salmon;
   }
-  .name{
-      background:local;
-      color: mediumorchid;
-      display: inline;
-
+  svg text {
+      stroke: navy;
+      stroke-width: 2px;
+      fill: transparent;
+      animation: fade 2s infinite alternate;
+      display: inline-block;
+  }
+  @keyframes fade {
+      from {stroke-dasharray: 0 70%;}
+      to {stroke-dasharray: 80% 0;
+    stroke-dashoffset: 40%;}
   }
   .name1{
     background: fixed;

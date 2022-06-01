@@ -5,30 +5,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"   href="{% static "css/file.css" %}">
-    <link rel="stylesheet"   href="{% static "css/file2.css" %}">
+    <link rel="stylesheet" href="{% static "css/file.css" %}">
+    <link rel="stylesheet" href="{% static "css/file2.css" %}">
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>دانشگاه</title>
 </head>
-<body dir="rtl" bgcolor="#8ed56f" >
-    <fieldset>
-     <legend>University</legend>
+<body dir="rtl" background="{% static "img/4623463.jpg" %}">
         <form action="">
           <tr>
-              <h1 class="name">
-                  دانشگاه
-              </h1>
+            <h1>
+                <svg>
+                    <text x="90%" y="100%">
+                        University
+                    </text>
+                    <text x="60%" y="50%">
+                        Welcome
+                    </text>
+                </svg>
+            </h1>
               <br>
               <br>
               <!-- link home page -->
-              <a  href=" form/" type="button" class="name22" >
-                صفحه بعدی
-              </a>
+              <span class="nameUss" >
+                <a href=" form/"  class="name22">
+                    صفحه بعدی
+                  </a>
+              </span>
+              <script>
+                  tippy(".nameUss",{
+                  content: "صفحه ای بعدی اطلاعت دقیق تری هست "});
+              </script>
               <!-- link page -->
             </tr>
           <hr>
           <td>
               <tr>
-                <a href="https://fa.wikipedia.org/wiki/%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87" ><p>از ویکی‌پدیا، دانشنامهٔ آزاد</p></a><b>
+                <span class="nameUsg" ><a href="https://fa.wikipedia.org/wiki/%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87" ><p style="color: brown;" >از ویکی‌پدیا، دانشنامهٔ آزاد</p></a><b></span>
+                <script>
+                    tippy(".nameUsg",{
+                    content: "برای اطلاعات بیشتر به صفحه مراجعه کنید "});
+                </script>
                     یک دانشگاه در نیمه دوم قرن چهاردهم میلادی
                     
                     دانشگاه یا پوهنتون (به انگلیسی: University) در سطوح علمی کاردانی، کارشناسی، کارشناسی ارشد و دکترا و در رشته‌های مختلف، مدرک دانشگاهی ارائه می‌کند.
@@ -186,7 +207,11 @@
             <p>
                 <ul>
                    <h2>
-                       <a href="https://www.heyvagroup.com/shownews/7790/%DA%A9%D9%86%DA%A9%D9%88%D8%B1.html" >کنکور"1401"شروع شد</a>
+                       <span class="nameUs" ><a href="https://www.heyvagroup.com/shownews/7790/%DA%A9%D9%86%DA%A9%D9%88%D8%B1.html" >کنکور"1401"شروع شد</a></span>
+                       <script>
+                        tippy(".nameUs",{
+                        content: "برای ثبت نام یا شرکت در کنکور به سایت زیر مراجعه کنید "});
+                    </script>
                    </h2>
                 </ul>
             </p>
@@ -261,8 +286,7 @@
         </tr>
       </table>
         </form>
-     </fieldset>
-     <iframe src="http://pnum.ac.ir/" height="700" width="985" ></iframe>
+     <iframe src="http://pnum.ac.ir/" height="700" width="985" style="display: inline-block;" ></iframe>
      <hr>
      <td>
          <ul>
