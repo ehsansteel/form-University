@@ -64,4 +64,45 @@ table, th, td {
 
 }
 
-
+  .name5555{
+            width: 200px;
+            height: 200px;
+            background-size: cover;
+            animation: shape 5s linear infinite;
+        }
+        @keyframes shape {
+            0%, 100% {border-radius: 
+                40% 60% 70% 30% / 40% 40% 60% 50%;}
+            33% {border-radius: 
+                70% 30% 50% 50% / 30% 30% 70% 70%;}
+            66% {border-radius: 
+                100% 60% 60% 100% / 100% 100% 60% 60%;}
+  }
+  .name4444{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    animation: shape 5s linear infinite;
+}
+@keyframes shape {
+    0%, 100% {border-radius: 
+        40% 60% 70% 30% / 40% 40% 60% 50%;}
+    33% {border-radius: 
+        70% 30% 50% 50% / 30% 30% 70% 70%;}
+    66% {border-radius: 
+        100% 60% 60% 100% / 100% 100% 60% 60%;}
+  }
+  .name3333{
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  animation: shape 5s linear infinite;
+}
+@keyframes shape {
+  0%, 100% {border-radius: 
+      40% 60% 70% 30% / 40% 40% 60% 50%;}
+  33% {border-radius: 
+      70% 30% 50% 50% / 30% 30% 70% 70%;}
+  66% {border-radius: 
+      100% 60% 60% 100% / 100% 100% 60% 60%;}
+  }
