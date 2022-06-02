@@ -1,0 +1,25 @@
+* {
+    padding: 3;
+    margin: 3;
+    outline: 3;
+    border: 3;
+}
+.search-box{
+    height: 30px;
+    padding: 4px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.search-button{
+    height: 30px;
+    width: 30px;
+    color: aqua;
+    border-radius: 5px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
